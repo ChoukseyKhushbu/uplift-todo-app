@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "/uplift-todo-app/static/js/main.2c21127b.chunk.js",
+    "main.js.map": "/uplift-todo-app/static/js/main.2c21127b.chunk.js.map",
+    "runtime-main.js": "/uplift-todo-app/static/js/runtime-main.0d3328f9.js",
+    "runtime-main.js.map": "/uplift-todo-app/static/js/runtime-main.0d3328f9.js.map",
+    "static/js/2.d25e70ae.chunk.js": "/uplift-todo-app/static/js/2.d25e70ae.chunk.js",
+    "static/js/2.d25e70ae.chunk.js.map": "/uplift-todo-app/static/js/2.d25e70ae.chunk.js.map",
+    "index.html": "/uplift-todo-app/index.html",
+    "precache-manifest.e2d17e7d7bbe5fc93b9bcbd92cbd4eef.js": "/uplift-todo-app/precache-manifest.e2d17e7d7bbe5fc93b9bcbd92cbd4eef.js",
+    "service-worker.js": "/uplift-todo-app/service-worker.js",
+    "static/js/2.d25e70ae.chunk.js.LICENSE.txt": "/uplift-todo-app/static/js/2.d25e70ae.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0d3328f9.js",
+    "static/js/2.d25e70ae.chunk.js",
+    "static/js/main.2c21127b.chunk.js"
+  ]
+}
