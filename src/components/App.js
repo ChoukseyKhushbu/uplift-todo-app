@@ -41,7 +41,16 @@ function App() {
       });
     }
   }
-
+  function displayDel(id) {
+    setTodoArray((todoArray) => {
+      return todoArray.map((item, ind) => {
+        if (ind === id) {
+          item.editing = !item.editing;
+        }
+        return item;
+      });
+    });
+  }
   return (
     <div className="container">
       <div className="heading">
@@ -56,6 +65,7 @@ function App() {
             id={index}
             onDelete={delTodo}
             onEdit={editTodo}
+            onHover={displayDel}
           />
         ))}
       </div>

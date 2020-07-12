@@ -2,7 +2,11 @@ import React from "react";
 
 function TodoItem(props) {
   return (
-    <div className="todoItem" onMouseOver={() => console.log("he")}>
+    <div
+      className="todoItem"
+      onMouseOver={() => props.onHover(props.id)}
+      onMouseOut={() => props.onHover(props.id)}
+    >
       <div>
         <input
           type="checkbox"
@@ -25,6 +29,7 @@ function TodoItem(props) {
 
       <div>
         <i
+          style={{ display: props.item.editing ? "flex" : "none" }}
           className="fas fa-trash-alt"
           onClick={() => props.onDelete(props.id)}
         ></i>
