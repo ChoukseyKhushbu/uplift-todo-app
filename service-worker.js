@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/uplift-todo-app/precache-manifest.e2d17e7d7bbe5fc93b9bcbd92cbd4eef.js"
+  "/uplift-todo-app/precache-manifest.2cd8b056fcd3c41cde65c6608ecb129a.js"
 );
 
 self.addEventListener('message', (event) => {
